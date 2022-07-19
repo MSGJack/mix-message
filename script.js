@@ -67,11 +67,11 @@ const dd = {
     ]
 };
 
-let randomWord = arr => {
+let randomWord = () => {
     const randomIndex = Math.floor(Math.random() * arr.length);
     /*const yourWord = arr[randomIndex];
     return yourWord;*/
-    document.getElementById('displayWord').innerHTML = arr[randomIndex];
+    document.getElementById('displayWord').innerHTML = dd[randomIndex];
 }
 
 const theComputer = randomWord(dd)
