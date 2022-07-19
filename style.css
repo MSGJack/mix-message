@@ -5,6 +5,7 @@ body {
 main {
     background-color:darkseagreen;
     font-size: 22px;
+    background-position: center;
 }
 
 button {
