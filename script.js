@@ -67,7 +67,7 @@ const dd = {
     ]
 };
 
-function randomWord() {
+const randomWord = arr => {
     const randomIndex = Math.floor(Math.random() * (arr.length));
     /*const yourWord = arr[randomIndex];
     return yourWord;*/
