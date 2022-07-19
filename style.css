@@ -1,0 +1,25 @@
+body {
+    background-color: darkkhaki;
+}
+
+main {
+    background-color:darkseagreen;
+    font-size: 22px;
+}
+
+.button {
+    background-color: rgba(50, 150, 220, 1);
+    border: 0;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: inset 5px rgba(15, 120, 156, 0.5);
+}
+
+.button:hover {
+    background-color: rgba(60, 170, 230, 1);
+}
+
+.button:active {
+    inset: -3px -2px -2px -4px rgba(15, 120, 156, 0.5);
+}
