@@ -1,4 +1,4 @@
-let btn = document.getElementById('btn');
+
 let displayWord = document.getElementById('displayWord');
 
 
@@ -75,4 +75,4 @@ switch (randomWord) {
 
 };
 
-document.getElementById("displayWord").innerHTML = randomWord;
+document.getElementById("displayWord").innerHTML = words[someWord];

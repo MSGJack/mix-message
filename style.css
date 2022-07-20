@@ -1,17 +1,17 @@
 body {
     background-color: black;
-    font-family: fantasy;
+    font-family: cursive;
     text-align: center;
 }
 
 main {
-    background-color:aquamarine;
+    background-color:rgb(113, 209, 177);
     font-size: 22px;
     background-position: center;
 }
 
 button {
-    background-color: rgba(50, 150, 220, 1);
+    background-color: rgb(45, 140, 207);
     border: 0;
     text-align: center;
     color: aliceblue;
