@@ -67,9 +67,9 @@ const dDif = {
     ]
 };
 
-let randomWord = (arr) => {
+let randomWord = () => {
     let randomIndex = Math.floor(Math.random() * (dDif.length));
-    document.getElementById('displayWord').innerHTML = dDif[randomIndex];
+    document.getElementById("displayWord").innerHTML = dDif[randomIndex];
     /*const theComputer = randomWord(dd);
     console.log(`Your word is ${theComputer}, enojy!`);*/
 }
