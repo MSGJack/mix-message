@@ -67,11 +67,11 @@ const dd = {
     ]
 };
 
-const randomWord = arr => {
+const randomWord = (arr) => {
     const randomIndex = Math.floor(Math.random() * (arr.length));
     /*const yourWord = arr[randomIndex];
     return yourWord;*/
     document.getElementById('displayWord').innerhtml = dd[randomIndex];
-    const theComputer = randomWord(dd)
-    console.log(`Your word is ${theComputer}, enojy!`)
+    const theComputer = randomWord(dd);
+    console.log(`Your word is ${theComputer}, enojy!`);
 }
