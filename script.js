@@ -1,4 +1,4 @@
-const dd = {
+const dDif = {
     Abnormal: [
         "Not conforming to standard. In matters of thought and conduct, to be independent is to be abnormal, to be abnormal is to be detested."
     ],
@@ -68,10 +68,10 @@ const dd = {
 };
 
 const randomWord = (arr) => {
-    const randomIndex = Math.floor(Math.random() * (arr.length));
+    const randomIndex = Math.floor(Math.random() * (dDif.length));
     /*const yourWord = arr[randomIndex];
     return yourWord;*/
-    document.getElementById('displayWord').innerhtml = dd[randomIndex];
-    const theComputer = randomWord(dd);
-    console.log(`Your word is ${theComputer}, enojy!`);
+    document.getElementById('displayWord').innerhtml = dDif[randomIndex];
+    /*const theComputer = randomWord(dd);
+    console.log(`Your word is ${theComputer}, enojy!`);*/
 }
