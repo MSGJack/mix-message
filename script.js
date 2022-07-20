@@ -8,6 +8,9 @@ const someWord = Math.floor(Math.random() * words.length);
 
 let randomWord = words[someWord];
 
+
+let def = ' '
+
 switch (randomWord) {
     case 'Abnormal' : 
         def ="Not conforming to standard. In matters of thought and conduct, to be independent is to be abnormal, to be abnormal is to be detested.";
