@@ -75,4 +75,4 @@ switch (randomWord) {
 
 };
 
-document.getElementById("randomWord").innerHTML = def;
+document.getElementById("displayWord").innerHTML = randomWord;
