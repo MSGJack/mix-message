@@ -1,7 +1,7 @@
 const words = [
       'Abnormal : "Not conforming to standard. In matters of thought and conduct, to be independent is to be abnormal, to be abnormal is to be detested."',
       'Admiration  :  "Our polite recognition of another s resemblance to ourselves."',
-      'Absurdity  : "A statement or belief manifestly inconsistent with one s own opinion."',
+      'Absurdity  : "A statement or belief manifestly inconsistent with one/s own opinion."',
       'Achievement  : "The death of endeavor and the birth of disgust."',
       'Acknowledge  : "To confess. Acknowledgement of one another s faults is the highest duty imposed by our love of truth."',
       'Beauty  : "The power by which a woman charms a lover and terrifies a husband."',
