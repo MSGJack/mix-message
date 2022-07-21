@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    background-color:tan;
+    background-color:darksalmon;
     font-size:1.2rem;
     padding: 15rem;
     margin: 50px;
@@ -33,14 +33,16 @@ button:active {
 }
 
 #displayWord {
-    background-color: turquoise;
+    background-color: steelblue;
     color: whitesmoke;
     padding: 3rem;
     margin: 15px;
-    height: 50px;
+    height: 100%;
+    width: 100%;
     font-size: 1.6rem;
     text-decoration: underline;
     border: 5px solid;
+    text-align: center;
 }
 
 @media only screen and (max-width: 400px) {
